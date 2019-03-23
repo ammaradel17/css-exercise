@@ -1,0 +1,94 @@
+body{
+   background-color: #C5CAC2;
+   box-sizing: border-box;
+}
+.container{
+   width: 78%;
+   margin: auto;
+   border: 4px solid #FFF;
+   height: 800px;
+   
+}
+
+header{
+   background: url('640x360_60428P00-BYSWV1.jpg');
+   background-size:cover;
+   height: 250px;
+   text-transform: uppercase;
+}
+header div {
+   position: relative;
+}
+header div h1{
+   position: absolute;
+   top: 65px;
+   left: 30px;
+   color: #FFF;
+   letter-spacing: 8px;
+   margin: 0;
+}
+header p{
+   
+   color: #DECF7D;
+   position: absolute;
+   top: 82px;
+   left: 30px;
+   letter-spacing: 1px;
+}
+article{
+   background-color: #F2E7A9;
+   float: left;
+   width: 80%;
+   height: 450px;
+   
+}
+article h3{
+   color: #955224;
+   text-transform: uppercase;
+   margin-left: 1%;
+}
+article p{
+   font-size: 17px;
+   margin-left: 1%;
+}
+aside{
+   float: right;
+   width: 19.8%;
+   background-color: #F1C969;
+   height: 450px;
+   border-left: 2px dotted #000; 
+}
+aside div{
+   background-color: #595A38;
+   border: 1px solid #000;
+   color: #FFF;
+   width: 80%;
+   margin: auto;
+   height: 35px;
+   margin-top: 20px;
+   line-height: 35px;
+   padding-left: 5px;
+   font-size: 18px;
+}
+aside p{
+   padding-left: 10px;
+   font-size: 18px;
+}
+aside ul li{
+   list-style: square;
+   margin-bottom: 5px;
+   font-size: 16px;
+   padding-left: 6px;
+}
+footer{
+   background-color: #5A593A;
+   height: 100px;
+   text-align: center;
+   line-height: 100px;
+   color: #FFF;
+   font-size: 24px;
+   font-weight: bold;
+}
+.fix{
+   clear: both;
+}
